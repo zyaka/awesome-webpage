@@ -1,10 +1,23 @@
+body {
+    
+}
 .header {
     background-color: #1f2937;
     display: flex;
+    justify-content: space-around;
 }
 .header-logo {
     color: floralwhite
 }
 .header-list {
     display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+}
+.header-list li a {
+    color: floralwhite;
+    padding: 8px;
+    text-decoration: none;
+
 }
