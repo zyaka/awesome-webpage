@@ -1,0 +1,10 @@
+.header {
+    background-color: #1f2937;
+    display: flex;
+}
+.header-logo {
+    color: floralwhite
+}
+.header-list {
+    display: flex;
+}
