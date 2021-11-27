@@ -5,7 +5,8 @@
     justify-content: space-around;
 }
 .header-logo {
-    color: floralwhite
+    color: floralwhite;
+    font-size: 24px;   
 }
 .header-list {
     display: flex;
@@ -24,13 +25,16 @@
     align-items: center;
     justify-content: center;
     background-color: #1f2937; 
-    padding: 25px 240px; 
+    padding: 40px 120px; 
     gap: 25px;
 }
 .in-container-one {
-    display: block; 
+    display: flex; 
+    flex-direction: column;
     color: floralwhite;
     background-color: #1f2937; 
+    font-size: 40px;
+    font-style: extra-bold;
 }
 /* Image by <a href="https://pixabay.com/users/erik_karits-15012370/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=6673562">Erik Karits</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=6673562">Pixabay</a> */
 /* Image by <a href="https://pixabay.com/users/mlaranda-1375673/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=2569202">MLARANDA</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=2569202">Pixabay</a> */
@@ -39,6 +43,11 @@
 /* Image by <a href="https://pixabay.com/users/richardmiddelbos-15362183/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=4873359">Richard Middelbos</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=4873359">Pixabay</a> */
 
 button {
+    display: flex;
+    height: 45px;
+    width: 85px;
+    justify-content: center;
+    align-items: center;
     background-color: #3882f6;
     color: floralwhite;
     padding: 5px 15px;
@@ -66,5 +75,13 @@ font-size: 36px;
     justify-content: center;
     align-items: center;
     padding: 15px
+}
+
+/* container-three below */
+.container-three {
+background-color: #e5e7eb;
+padding: 15px;
+font-size: 36px;
+font-style: light italic;
 }
 
