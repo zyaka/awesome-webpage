@@ -24,14 +24,21 @@
     align-items: center;
     justify-content: center;
     background-color: #1f2937; 
-    padding: 0px 275px; 
+    padding: 25px 275px; 
+    gap: 25px;
 }
 .in-container-one {
     display: block; 
     color: floralwhite;
     background-color: #1f2937; 
-
 }
+
 
 /* Image by <a href="https://pixabay.com/users/erik_karits-15012370/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=6673562">Erik Karits</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=6673562">Pixabay</a> */
  
+button {
+    background-color: #3882f6;
+    color: floralwhite;
+    padding: 5px 15px;
+    border-radius: 15%;
+}
