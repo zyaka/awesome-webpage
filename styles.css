@@ -75,6 +75,7 @@ button {
     color: floralwhite;
     padding: 5px 15px;
     border-radius: 15%;
+    border: none;
 }
 
 
@@ -127,4 +128,33 @@ h2 {
     flex-direction: row-reverse;
     font-size: 25px;
     font-weight: bold;
+}
+
+
+/* container four below */
+
+.container-four {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
+
+.small-container {
+    display: flex;
+    background-color: #3882f6;
+    color: floralwhite;
+    padding: 25px 50px;
+    border-radius: 3%;
+    gap: 100px;
+}
+
+.sign-up-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sign-up-button button {
+    border: 2px solid #e5e7eb;
 }
