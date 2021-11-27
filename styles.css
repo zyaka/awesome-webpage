@@ -1,6 +1,4 @@
-body {
-    
-}
+/* header */
 .header {
     background-color: #1f2937;
     display: flex;
@@ -19,5 +17,21 @@ body {
     color: floralwhite;
     padding: 8px;
     text-decoration: none;
+}
+/* container 1 below */
+.container-one {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1f2937; 
+    padding: 0px 275px; 
+}
+.in-container-one {
+    display: block; 
+    color: floralwhite;
+    background-color: #1f2937; 
 
 }
+
+/* Image by <a href="https://pixabay.com/users/erik_karits-15012370/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=6673562">Erik Karits</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=6673562">Pixabay</a> */
+ 
