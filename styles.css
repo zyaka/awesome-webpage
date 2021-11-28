@@ -102,6 +102,10 @@ button {
 
 /* container 2 below */
 
+.container-two {
+    padding: 50px 0px;
+}
+
 h2 {
     display: flex;
     justify-content: center;
