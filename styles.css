@@ -1,5 +1,9 @@
 /* header */
 
+html {
+    font-family: 'Roboto', sans-serif;
+}
+
 .header {
     background-color: #1f2937;
     display: flex;
@@ -33,14 +37,14 @@
     align-items: center;
     justify-content: center;
     background-color: #1f2937;
-    padding: 40px 120px;
+    padding: 100px 120px;
     gap: 25px;
-    height: 600px;
+    max-height: 300px;
 }
 
 h1 {
-    padding: none;
-    margin: none;
+    padding: 0px;
+    margin: 0px;
 }
 
 .in-container-one {
@@ -48,13 +52,13 @@ h1 {
     flex-direction: column;
     color: floralwhite;
     background-color: #1f2937;
-    font-size: 40px;
-    height: 600px;
+    font-size: 36px;
+    max-height: 300px;
 }
 
 .subtext {
-    font-size: 25px;
-    color: gainsboro;
+    font-size: 20px;
+    color: silver;
 }
 
 .top-pic {
@@ -138,6 +142,8 @@ h2 {
 .quote {
     font-size: 36px;
     font-style: italic;
+    font-weight: lighter;
+    color: darkslategray;
 }
 
 .author {
